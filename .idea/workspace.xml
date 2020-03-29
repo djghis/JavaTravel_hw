@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865b8a1d-f893-4bf2-86f7-73c340a2d347" name="Default Changelist" comment="" />
+    <list default="true" id="865b8a1d-f893-4bf2-86f7-73c340a2d347" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PlaneType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -26,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZnUR5cza8tTrc4v4Yuqn0frF2n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PlaneTest">
     <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="airline_homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -49,8 +56,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlaneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="airline_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.PassengerTest" />
       </list>
     </recent_temporary>
@@ -69,21 +86,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="596" height="212" key="GridCell.Tab.0.bottom" timestamp="1585474933586">
+    <state width="596" height="212" key="GridCell.Tab.0.bottom" timestamp="1585477050625">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="596" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585474933586" />
-    <state width="596" height="212" key="GridCell.Tab.0.center" timestamp="1585474933585">
+    <state width="596" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585477050625" />
+    <state width="596" height="212" key="GridCell.Tab.0.center" timestamp="1585477050623">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="596" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585474933585" />
-    <state width="596" height="212" key="GridCell.Tab.0.left" timestamp="1585474933584">
+    <state width="596" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585477050623" />
+    <state width="596" height="212" key="GridCell.Tab.0.left" timestamp="1585477050623">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="596" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585474933584" />
-    <state width="596" height="212" key="GridCell.Tab.0.right" timestamp="1585474933585">
+    <state width="596" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585477050623" />
+    <state width="596" height="212" key="GridCell.Tab.0.right" timestamp="1585477050624">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="596" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585474933585" />
+    <state width="596" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585477050624" />
+    <state width="596" height="263" key="GridCell.Tab.1.bottom" timestamp="1585476936040">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585476936040" />
+    <state width="596" height="263" key="GridCell.Tab.1.center" timestamp="1585476936039">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585476936039" />
+    <state width="596" height="263" key="GridCell.Tab.1.left" timestamp="1585476936038">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585476936038" />
+    <state width="596" height="263" key="GridCell.Tab.1.right" timestamp="1585476936040">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585476936040" />
   </component>
 </project>
