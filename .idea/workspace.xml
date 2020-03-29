@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -30,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,5 +67,23 @@
       <updated>1585474340788</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="596" height="212" key="GridCell.Tab.0.bottom" timestamp="1585474933586">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585474933586" />
+    <state width="596" height="212" key="GridCell.Tab.0.center" timestamp="1585474933585">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585474933585" />
+    <state width="596" height="212" key="GridCell.Tab.0.left" timestamp="1585474933584">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585474933584" />
+    <state width="596" height="212" key="GridCell.Tab.0.right" timestamp="1585474933585">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="596" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585474933585" />
   </component>
 </project>
