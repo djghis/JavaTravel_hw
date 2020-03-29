@@ -9,11 +9,11 @@ public class Flight {
     private String departureAirport;
     private String departureTime;
 
-    public Flight(Plane plane, int flightNumber, String destination, String departureAirport, String departureTime){
+    public Flight(Plane plane, int flightNumber, String destination, String departureAirport, String departureTime) {
         this.bookedPasssengers = new ArrayList<Passenger>();
         this.plane = plane;
         this.flightNumber = flightNumber;
-        this.destination= destination;
+        this.destination = destination;
         this.departureAirport = departureAirport;
         this.departureTime = departureTime;
     }
@@ -32,5 +32,20 @@ public class Flight {
 
     public String getDepartureTime() {
         return this.departureTime;
+    }
+
+    public int getNumbOfPassenger() {
+        return this.bookedPasssengers.size();
+    }
+
+    public int getAvailableSeats() {
+        return plane.getCapacity() - bookedPasssengers.size();
+    }
+
+    public void addPassenger(Passenger passenger) {
+        if (plane.getCapacity() > getNumbOfPassenger()) {
+            this.bookedPasssengers.add(passenger);
+
+        }
     }
 }
