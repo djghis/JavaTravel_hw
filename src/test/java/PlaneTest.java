@@ -14,10 +14,10 @@ public class PlaneTest {
 
     @Test
     public void hasCapcity(){
-        assertEquals(250, PlaneType.BOEING737.getCapacity());
+        assertEquals(250, plane.getCapacity());
     }
     @Test
     public void hasMaxWeight(){
-        assertEquals(80000, PlaneType.BOEING737.getMaxWeight());
+        assertEquals(80000, plane.getMaxWeight());
     }
 }
